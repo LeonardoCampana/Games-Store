@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "173/0JIauhCHTsIAw+QiujsZ7lL6Rnczu9MwKtkJpT9DuAs81Jr55ZwjFPjBb+c27qAcMsV4YPHn8ux2ydLjHw==",
+  "dgSpecHash": "3TWMANkAY2jG9Ldg9PAk3RpiXXtuRk/Wc6JKCElFqGodO9XJzS9ZuoEXRy2WMjTz403IFpam9l9XVHVXOEA+Hw==",
   "success": true,
-  "projectFilePath": "O:\\Visual Studio\\projects\\GamesStore\\GamesStore\\GamesStore.csproj",
+  "projectFilePath": "O:\\Visual Studio\\projects\\Games-Store\\GamesStore\\GamesStore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

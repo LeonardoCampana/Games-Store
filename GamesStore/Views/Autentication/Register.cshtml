@@ -7,6 +7,13 @@
 <section class="vh-100">
     <div class="container-fluid">
         <div class="row">
+
+            <div class="col-sm-6 px-0 d-none d-sm-block">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp"
+                     alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
+            </div>
+
+
             <div class="col-sm-6 text-black">
 
                 <div class="px-5 ms-xl-4">
@@ -36,20 +43,17 @@
                         </div>
 
                         <div class="pt-1 mb-4">
-                            <button data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-lg btn-block" type="button">Login</button>
+                            <button data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-lg btn-block" type="button">Register</button>
                         </div>
 
-                        <p>Já possui uma conta? <a href="../Views/Autentication/Login.cshtml" class="link-info">Entre aqui!</a></p>
+                        <p>Já possui uma conta? <a asp-controller="Autentication" asp-action="Login" class="link-info">Entre aqui!</a></p>
 
                     </form>
 
                 </div>
 
             </div>
-            <div class="col-sm-6 px-0 d-none d-sm-block">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp"
-                     alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
-            </div>
+
         </div>
     </div>
 </section>
