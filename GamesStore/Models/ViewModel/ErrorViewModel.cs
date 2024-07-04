@@ -1,4 +1,4 @@
-namespace GamesStore.Models
+namespace GamesStore.Models.ViewModel
 {
     public class ErrorViewModel
     {

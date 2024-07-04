@@ -1,7 +1,7 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model GamesStore.Models.User
+
 @{
+    ViewData["Title"] = "Register";
 }
 
 <section class="vh-100">
@@ -13,7 +13,6 @@
                      alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
             </div>
 
-
             <div class="col-sm-6 text-black">
 
                 <div class="px-5 ms-xl-4">
@@ -22,34 +21,40 @@
                 </div>
 
                 <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-
-                    <form style="width: 23rem;">
+                    <form asp-controller="Account" asp-action="Register" method="post" style="width: 23rem;">
 
                         <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Register</h3>
 
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <input type="email" id="form2Example18" class="form-control form-control-lg" />
-                            <label class="form-label" for="form2Example18">Email address</label>
+                            <input asp-for="Name" type="text" class="form-control form-control-lg" />
+                            <label asp-for="Name" class="form-label">Name</label>
+                            <span asp-validation-for="Name" class="text-danger"></span>
                         </div>
 
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <input type="password" id="form2Example28" class="form-control form-control-lg" />
-                            <label class="form-label" for="form2Example28">Password</label>
+                            <input asp-for="Email" type="email" class="form-control form-control-lg" />
+                            <label asp-for="Email" class="form-label">Email address</label>
+                            <span asp-validation-for="Email" class="text-danger"></span>
                         </div>
 
                         <div data-mdb-input-init class="form-outline mb-4">
-                            <input type="password" id="form2Example28" class="form-control form-control-lg" />
-                            <label class="form-label" for="form2Example28">Confirm Password</label>
+                            <input asp-for="Password" type="password" class="form-control form-control-lg" />
+                            <label asp-for="Password" class="form-label">Password</label>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input asp-for="ConfirmPassword" type="password" class="form-control form-control-lg" />
+                            <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                         </div>
 
                         <div class="pt-1 mb-4">
-                            <button data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-lg btn-block" type="button">Register</button>
+                            <button class="btn btn-info btn-lg btn-block" type="submit">Register</button>
                         </div>
 
-                        <p>Já possui uma conta? <a asp-controller="Autentication" asp-action="Login" class="link-info">Entre aqui!</a></p>
-
+                        <p>Já possui uma conta? <a asp-controller="Authentication" asp-action="Login" class="link-info">Entre aqui!</a></p>
                     </form>
-
                 </div>
 
             </div>
@@ -57,3 +62,9 @@
         </div>
     </div>
 </section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

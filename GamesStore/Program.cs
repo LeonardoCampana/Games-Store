@@ -1,7 +1,18 @@
+using GamesStore.Data;
+using GamesStore.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<UserRegisterDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+           .EnableSensitiveDataLogging()
+           .EnableDetailedErrors());
+
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 

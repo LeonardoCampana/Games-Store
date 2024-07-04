@@ -1,4 +1,5 @@
 using GamesStore.Models;
+using GamesStore.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
