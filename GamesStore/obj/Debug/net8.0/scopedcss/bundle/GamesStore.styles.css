@@ -47,3 +47,21 @@ button.accept-policy[b-s2xcqhl4dy] {
   white-space: nowrap;
   line-height: 60px;
 }
+/* _content/GamesStore/Views/Shared/_LayoutAuth.cshtml.rz.scp.css */
+body[b-avhsljk3o7] {
+}
+
+.container-login[b-avhsljk3o7] {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-sm-6 text-black[b-avhsljk3o7] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
