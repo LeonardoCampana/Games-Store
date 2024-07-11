@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yAlm0HrR+gSB4lBCLvl6b6RZbdw59nsd8EeOQaQ1JQmpUxgdwvUF/1psA+bT22X+4K2JV/XnYZGr22IL0O6j4w==",
+  "dgSpecHash": "e/Oul+3bVE/rrgFxzcgMpsGlp9MU88yfVuw3y8R+x2gtjk2aZJTjU8dTJb6R+i8pJV8b6W9J++ChPUhCaHkuiw==",
   "success": true,
-  "projectFilePath": "O:\\Visual Studio\\projects\\Games-Store\\GamesStore\\GamesStore.csproj",
+  "projectFilePath": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\GamesStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leonardo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
