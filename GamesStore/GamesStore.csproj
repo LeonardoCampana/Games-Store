@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\images\cyberpunk 2077.png" />
+    <None Include="wwwroot\images\god of war.png" />
+    <None Include="wwwroot\images\hollow-knight.png" />
+    <None Include="wwwroot\images\red dead redemption 2.png" />
+    <None Include="wwwroot\images\the witcher 3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

@@ -1,0 +1,159 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.gallery-container {
+    align-items: center;
+    display: flex;
+    height: 300px;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.gallery-item {
+    height: 200px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 330px;
+    z-index: 0;
+    border-radius: 15px;
+    background-size: contain;
+}
+
+.gallery-item-1 {
+    left: 15%;
+    opacity: .4;
+    transform: translateX(-50%);
+}
+
+.gallery-item-2, .gallery-item-4 {
+    height: 250px;
+    opacity: 0.8;
+    width: 380px;
+    z-index: 1;
+}
+
+.gallery-item-2 {
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.gallery-item-3 {
+    box-shadow: -2px 5px 33px 6px rgba(0,0,0,0.35);
+    height: 300px;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 430px;
+    z-index: 2;
+}
+
+.gallery-item-4 {
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery-item-5 {
+    left: 85%;
+    opacity: .4;
+    transform: translateX(-50%);
+}
+
+.gallery-controls {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+    height: 100px;
+}
+
+    .gallery-controls button {
+        color: #d5cbcb;
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+        font-size: 30px;
+        margin: 0 50px;
+        padding: 0 12px;
+        text-transform: capitalize;
+    }
+
+.gallery-controls-button:focus {
+    outline: none;
+}
+
+.gallery-nav {
+    bottom: -15px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+    .gallery-nav li {
+        background: #ccc;
+        border-radius: 50%;
+        height: 10px;
+        margin: 0 16px;
+        width: 10px;
+    }
+
+        .gallery-nav li.gallery-item-selected {
+            background: #555;
+        }
+
+/* Adicionado */
+.gallery-prev {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+    .gallery-prev::before {
+        content: url('seta-esquerda.png'); /* adicione a imagem da seta para a esquerda */
+    }
+
+.gallery-next {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+    .gallery-next::before {
+        content: url('seta-direita.png'); /* adicione a imagem da seta para a direita */
+    }
+
+
+.arrow-button {
+    height: 4vh;
+}
+
+.gallery-next, .gallery-prev {
+    filter: invert(85%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    transition: 0.4s;
+    transform-origin: center;
+}
+.gallery-next:hover, .gallery-prev:hover{
+    transform: scale(1.05);
+}
+
+

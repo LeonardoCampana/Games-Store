@@ -5,12 +5,56 @@
       "PackagePath": "staticwebassets\\GamesStore.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\css\\carouselHome.css",
+      "PackagePath": "staticwebassets\\css\\carouselHome.css"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\cyberpunk 2077.png",
+      "PackagePath": "staticwebassets\\images\\cyberpunk 2077.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\god of war.png",
+      "PackagePath": "staticwebassets\\images\\god of war.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\hollow-knight.png",
+      "PackagePath": "staticwebassets\\images\\hollow-knight.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\icon\\left-arrow.png",
+      "PackagePath": "staticwebassets\\images\\icon\\left-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\icon\\right-arrow.png",
+      "PackagePath": "staticwebassets\\images\\icon\\right-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\icon\\right.png",
+      "PackagePath": "staticwebassets\\images\\icon\\right.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\red dead redemption 2.png",
+      "PackagePath": "staticwebassets\\images\\red dead redemption 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\the witcher 3.png",
+      "PackagePath": "staticwebassets\\images\\the witcher 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\js\\carouselHome.js",
+      "PackagePath": "staticwebassets\\js\\carouselHome.js"
     },
     {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\js\\site.js",

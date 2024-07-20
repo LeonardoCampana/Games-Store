@@ -26,7 +26,7 @@ namespace GamesStore.Controllers
             if (ModelState.IsValid)
             {
                 await _userService.AddUserAsync(user);
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "Autentication");
             }
             return View(user);
         }
@@ -42,7 +42,7 @@ namespace GamesStore.Controllers
         {
             if (await _userService.ValidateUser(email, password))
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Home2", "Home");
             }
             else
             {

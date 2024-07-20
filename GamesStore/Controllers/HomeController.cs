@@ -14,6 +14,11 @@ namespace GamesStore.Controllers
             _logger = logger;
         }
 
+        public IActionResult Home2()
+        {
+            return View("~/Views/Home2/Index.cshtml");
+        }
+
         public IActionResult Index()
         {
             return View();
