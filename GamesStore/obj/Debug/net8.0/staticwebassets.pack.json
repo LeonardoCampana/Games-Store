@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\css\\products.css",
+      "PackagePath": "staticwebassets\\css\\products.css"
+    },
+    {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -21,12 +25,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\celeste.png",
+      "PackagePath": "staticwebassets\\images\\celeste.png"
+    },
+    {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\cyberpunk 2077.png",
       "PackagePath": "staticwebassets\\images\\cyberpunk 2077.png"
     },
     {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\god of war.png",
       "PackagePath": "staticwebassets\\images\\god of war.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\hades2.png",
+      "PackagePath": "staticwebassets\\images\\hades2.png"
     },
     {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\hollow-knight.png",
@@ -51,6 +63,10 @@
     {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\the witcher 3.png",
       "PackagePath": "staticwebassets\\images\\the witcher 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\yakuza0.png",
+      "PackagePath": "staticwebassets\\images\\yakuza0.png"
     },
     {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\js\\carouselHome.js",

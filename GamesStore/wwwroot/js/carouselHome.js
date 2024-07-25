@@ -6,6 +6,8 @@ class Carousel {
     constructor(container, items) {
         this.carouselContainer = container
         this.carouselArray = [...items]
+        this.currentIndex = 0
+        this.autoPlayInterval = 5000 // 5 segundos
     }
 
     updateGallery() {
@@ -25,8 +27,7 @@ class Carousel {
     navigate(direction) {
         if (direction === 'previous') {
             this.carouselArray.unshift(this.carouselArray.pop())
-        }
-        else if (direction === 'next') {
+        } else if (direction === 'next') {
             this.carouselArray.push(this.carouselArray.shift())
         }
         this.updateGallery()
@@ -66,9 +67,16 @@ class Carousel {
             this.navigate('next')
         })
     }
+
+    autoPlay() {
+        setInterval(() => {
+            this.navigate('next')
+        }, this.autoPlayInterval)
+    }
 }
 
-const exempleCarouser = new Carousel(galleryContainer, galleryItems)
+const exempleCarousel = new Carousel(galleryContainer, galleryItems)
 
-exempleCarouser.setControls()
-exempleCarouser.useControls()
+exempleCarousel.setControls()
+exempleCarousel.useControls()
+exempleCarousel.autoPlay()

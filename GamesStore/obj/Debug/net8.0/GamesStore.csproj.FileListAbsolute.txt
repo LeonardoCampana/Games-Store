@@ -303,3 +303,4 @@ C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\ne
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\GamesStore.genruntimeconfig.cache
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\ref\GamesStore.dll
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutAuth.cshtml.rz.scp.css
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutHome.cshtml.rz.scp.css

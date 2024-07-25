@@ -42,7 +42,7 @@ namespace GamesStore.Controllers
         {
             if (await _userService.ValidateUser(email, password))
             {
-                return RedirectToAction("Home2", "Home");
+                return RedirectToAction("Home", "Home");
             }
             else
             {

@@ -1,0 +1,65 @@
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-uxzmm0nvri] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-uxzmm0nvri] {
+  color: #0077cc;
+}
+
+.btn-primary[b-uxzmm0nvri] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-uxzmm0nvri], .nav-pills .show > .nav-link[b-uxzmm0nvri] {
+    background-color: #16202C;
+    border-color: #1861ac;
+}
+
+.border-top[b-uxzmm0nvri] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-uxzmm0nvri] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-uxzmm0nvri] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-uxzmm0nvri] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-uxzmm0nvri] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+#navbar[b-uxzmm0nvri] {
+    background-color: #16202C;
+    height: 9vh;
+}
+
+.navbar-nav[b-uxzmm0nvri] {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.navbar-container[b-uxzmm0nvri] {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
