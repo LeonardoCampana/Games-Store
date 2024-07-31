@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xYmjmECO2dX1D9Ik4iCnMajOhMJzsTgFqyUH/+0dpK8=",
+  "Hash": "OlkGzpxivGDp7Krbot2GGPG6hJrL9P5rX5kTjovAaiI=",
   "Source": "GamesStore",
   "BasePath": "_content/GamesStore",
   "Mode": "Default",
@@ -150,6 +150,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\CAPA-God-of-WAR.jpg",
+      "SourceId": "GamesStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\",
+      "BasePath": "_content/GamesStore",
+      "RelativePath": "images/CAPA-God-of-WAR.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CAPA-God-of-WAR.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\celeste.png",
       "SourceId": "GamesStore",
       "SourceType": "Discovered",
@@ -186,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cyberpunk 2077.png"
+    },
+    {
+      "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\dyinglight2.jpg",
+      "SourceId": "GamesStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\",
+      "BasePath": "_content/GamesStore",
+      "RelativePath": "images/dyinglight2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dyinglight2.jpg"
     },
     {
       "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\god of war.png",
@@ -243,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\hollow-knight.png"
+    },
+    {
+      "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\icon\\cart.svg",
+      "SourceId": "GamesStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\",
+      "BasePath": "_content/GamesStore",
+      "RelativePath": "images/icon/cart.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\icon\\cart.svg"
     },
     {
       "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\icon\\left-arrow.png",

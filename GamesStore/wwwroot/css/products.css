@@ -31,7 +31,7 @@ main {
 .product {
     padding: 0;
     width: 18vw;
-    height: 38vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     transition: 0.3s;
@@ -86,4 +86,29 @@ main {
 .previous-price {
     color: #434C53;
     text-decoration: line-through;
+}
+
+.shopcart{
+    background-color: seagreen;
+    height: 4.2vh;
+    width: 3.4vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    margin-left: 40px;
+    transition: .2s;
+}
+
+.shopcart:active{
+    background-color:aquamarine;
+}
+
+.shopcart img{
+    height: 3vh;
+    transition: .08s;
+}
+
+.shopcart img:active{
+    transform: scaleY(0.5);
 }

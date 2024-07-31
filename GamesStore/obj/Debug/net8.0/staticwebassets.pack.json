@@ -25,12 +25,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\CAPA-God-of-WAR.jpg",
+      "PackagePath": "staticwebassets\\images\\CAPA-God-of-WAR.jpg"
+    },
+    {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\celeste.png",
       "PackagePath": "staticwebassets\\images\\celeste.png"
     },
     {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\cyberpunk 2077.png",
       "PackagePath": "staticwebassets\\images\\cyberpunk 2077.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\dyinglight2.jpg",
+      "PackagePath": "staticwebassets\\images\\dyinglight2.jpg"
     },
     {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\god of war.png",
@@ -43,6 +51,10 @@
     {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\hollow-knight.png",
       "PackagePath": "staticwebassets\\images\\hollow-knight.png"
+    },
+    {
+      "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\icon\\cart.svg",
+      "PackagePath": "staticwebassets\\images\\icon\\cart.svg"
     },
     {
       "Id": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\icon\\left-arrow.png",
