@@ -1,10 +1,12 @@
-﻿@*
+﻿<!-- Index.cshtml -->
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
     Layout = "_LayoutHome";
 
 }
+@model IEnumerable<GamesStore.Models.Product>
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -47,90 +49,26 @@
         </section>
 
         <section id="products">
-            <div class="row">
+
+            @foreach (var produto in Model)
+            {
                 <div class="product">
-                    <img src="./images/dyinglight2.jpg" alt="" class="img-game">
-                    <p class="game-name">Dying Light 2</p>
+                    <img src=".@produto.PathImage" alt="@produto.Name" class="img-game">
+                    <p class="game-name">@produto.Name</p>
                     <div class="price">
-                        <p class="discount">-75%</p>
-                        <p class="previous-price">$20</p>
-                        <p class="last-price">$5</p>
-                        <div class="shopcart"> <img src="./images/icon/cart.svg" alt="cartSVG"/></div>
+                        <p class="discount">@produto.Discount %</p>
+                        <p class="previous-price">$@produto.Price</p>
+                        @{
+                            decimal lastPrice = produto.Price - (produto.Price * produto.Discount / 100);
+                        }
+
+                        <p class="last-price">$@lastPrice.ToString("F2")</p>
+                        <div class="shopcart">
+                            <img src="./images/icon/cart.svg" alt="cartSVG" />
+                        </div>
                     </div>
                 </div>
-                <div class="product">
-                    <img src="./images/red dead redemption 2.png" alt="" class="img-game">
-                    <p class="game-name">Red Dead Redemption 2</p>
-                    <div class="price">
-                        <p class="discount">-75%</p>
-                        <p class="previous-price">$20</p>
-                        <p class="last-price">$5</p>
-                        <div class="shopcart"> <img src="./images/icon/cart.svg" alt="cartSVG"/></div>
-                    </div>
-                </div>
-                <div class="product">
-                    <img src="./images/hollow-knight.png" alt="" class="img-game">
-                    <p class="game-name">Hollow Knight</p>
-                    <div class="price">
-                        <p class="discount">-75%</p>
-                        <p class="previous-price">$20</p>
-                        <p class="last-price">$5</p>
-                        <div class="shopcart"> <img src="./images/icon/cart.svg" alt="cartSVG" /></div>
-                    </div>
-                </div>
-                <div class="product">
-                    <img src="./images/the witcher 3.png" alt="" class="img-game">
-                    <p class="game-name">The Witcher 3</p>
-                    <div class="price">
-                        <p class="discount">-75%</p>
-                        <p class="previous-price">$20</p>
-                        <p class="last-price">$5</p>
-                        <div class="shopcart"> <img src="./images/icon/cart.svg" alt="cartSVG" /></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="product">
-                    <img src="./images/cyberpunk 2077.png" alt="" class="img-game">
-                    <p class="game-name">Cyberpunk 2077</p>
-                    <div class="price">
-                        <p class="discount">-75%</p>
-                        <p class="previous-price">$20</p>
-                        <p class="last-price">$5</p>
-                        <div class="shopcart"> <img src="./images/icon/cart.svg" alt="cartSVG" /></div>
-                    </div>
-                </div>
-                <div class="product">
-                    <img src="./images/hades2.png" alt="" class="img-game">
-                    <p class="game-name">Hades 2</p>
-                    <div class="price">
-                        <p class="discount">-75%</p>
-                        <p class="previous-price">$20</p>
-                        <p class="last-price">$5</p>
-                        <div class="shopcart"> <img src="./images/icon/cart.svg" alt="cartSVG" /></div>
-                    </div>
-                </div>
-                <div class="product">
-                    <img src="./images/yakuza0.png" alt="" class="img-game">
-                    <p class="game-name">Yakuza 0</p>
-                    <div class="price">
-                        <p class="discount">-75%</p>
-                        <p class="previous-price">$20</p>
-                        <p class="last-price">$5</p>
-                        <div class="shopcart"> <img src="./images/icon/cart.svg" alt="cartSVG" /></div>
-                    </div>
-                </div>
-                <div class="product">
-                    <img src="./images/celeste.png" alt="" class="img-game">
-                    <p class="game-name">Celeste</p>
-                    <div class="price">
-                        <p class="discount">-75%</p>
-                        <p class="previous-price">$20</p>
-                        <p class="last-price">$5</p>
-                        <div class="shopcart"> <img src="./images/icon/cart.svg" alt="cartSVG" /></div>
-                    </div>
-                </div>
-            </div>
+            }
 
         </section>
 

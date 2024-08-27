@@ -1,0 +1,61 @@
+﻿@model GamesStore.Models.Product
+
+
+<section class="vh-100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 text-black">
+
+                <div class="px-5 ms-xl-4">
+                    <i class="fas fa-crow fa-2x me-3 pt-5 mt-xl-4" style="color: #709085;"></i>
+                    <span class="h1 fw-bold mb-0"></span>
+                </div>
+
+                <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
+                    <form asp-controller="Products" asp-action="Create" method="post" style="width: 23rem;">
+
+                        <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Add Product</h3>
+
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input asp-for="Name" type="text" class="form-control form-control-lg" />
+                            <label asp-for="Name" class="form-label">Name</label>
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input asp-for="Price" type="Price" class="form-control form-control-lg" />
+                            <label asp-for="Price" class="form-label">Price</label>
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input asp-for="Discount" type="password" class="form-control form-control-lg" />
+                            <label asp-for="Discount" class="form-label">Discount</label>
+                            <span asp-validation-for="Discount" class="text-danger"></span>
+                        </div>
+
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <input asp-for="ImageFile" type="file" class="form-control form-control-lg" />
+                            <label asp-for="ImageFile" class="form-label">Upload Image</label>
+                            <span asp-validation-for="ImageFile" class="text-danger"></span>
+                        </div>
+
+                        <div class="pt-1 mb-4">
+                            <button class="btn btn-info btn-lg btn-block" type="submit">Add</button>
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

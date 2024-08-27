@@ -2,10 +2,12 @@ using GamesStore.Data;
 using GamesStore.Interfaces;
 using GamesStore.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddLogging();
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<UserRegisterDbContext>(options =>
@@ -14,6 +16,11 @@ builder.Services.AddDbContext<UserRegisterDbContext>(options =>
            .EnableDetailedErrors());
 
 builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddDbContext<ProductRegisterDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+           .EnableSensitiveDataLogging()
+           .EnableDetailedErrors());
 
 var app = builder.Build();
 
@@ -31,6 +38,13 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
 
 app.MapControllerRoute(
     name: "default",

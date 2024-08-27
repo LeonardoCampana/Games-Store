@@ -296,7 +296,6 @@ C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\ne
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\scopedcss\bundle\GamesStore.styles.css
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\scopedcss\projectbundle\GamesStore.bundle.scp.css
-C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\GamesStore.csproj.Up2Date
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\GamesStore.dll
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\refint\GamesStore.dll
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\GamesStore.pdb
@@ -304,3 +303,4 @@ C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\ne
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\ref\GamesStore.dll
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutAuth.cshtml.rz.scp.css
 C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutHome.cshtml.rz.scp.css
+C:\Users\Leonardo\OneDrive\Área de Trabalho\Games-Store\GamesStore\obj\Debug\net8.0\GamesStore.csproj.Up2Date

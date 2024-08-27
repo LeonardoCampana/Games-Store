@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OlkGzpxivGDp7Krbot2GGPG6hJrL9P5rX5kTjovAaiI=",
+  "Hash": "W6RzItLW8oNnKHCIM4sGj40aHfNa3YFnaKlB3Jz9ssM=",
   "Source": "GamesStore",
   "BasePath": "_content/GamesStore",
   "Mode": "Default",
@@ -150,12 +150,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\CAPA-God-of-WAR.jpg",
+      "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\CAPA-God-of-WAR.png",
       "SourceId": "GamesStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\",
       "BasePath": "_content/GamesStore",
-      "RelativePath": "images/CAPA-God-of-WAR.jpg",
+      "RelativePath": "images/CAPA-God-of-WAR.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\CAPA-God-of-WAR.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\CAPA-God-of-WAR.png"
     },
     {
       "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\celeste.png",
@@ -188,12 +188,12 @@
       "OriginalItemSpec": "wwwroot\\images\\celeste.png"
     },
     {
-      "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\cyberpunk 2077.png",
+      "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\cyberpunk2077.png",
       "SourceId": "GamesStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\",
       "BasePath": "_content/GamesStore",
-      "RelativePath": "images/cyberpunk 2077.png",
+      "RelativePath": "images/cyberpunk2077.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cyberpunk 2077.png"
+      "OriginalItemSpec": "wwwroot\\images\\cyberpunk2077.png"
     },
     {
-      "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\dyinglight2.jpg",
+      "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\dyinglight2.png",
       "SourceId": "GamesStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\",
       "BasePath": "_content/GamesStore",
-      "RelativePath": "images/dyinglight2.jpg",
+      "RelativePath": "images/dyinglight2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\dyinglight2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\dyinglight2.png"
     },
     {
       "Identity": "C:\\Users\\Leonardo\\OneDrive\\Área de Trabalho\\Games-Store\\GamesStore\\wwwroot\\images\\god of war.png",
