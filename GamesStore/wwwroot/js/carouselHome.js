@@ -37,7 +37,7 @@ class Carousel {
         const prevButton = document.createElement('button')
         prevButton.className = 'gallery-prev'
         const prevImg = document.createElement('img')
-        prevImg.src = './images/icon/left-arrow.png'
+        prevImg.src = '../images/icon/left-arrow.png'
         prevImg.alt = 'Previous'
         prevImg.className = 'arrow-button'
         prevButton.appendChild(prevImg)
@@ -46,7 +46,7 @@ class Carousel {
         const nextButton = document.createElement('button')
         nextButton.className = 'gallery-next'
         const nextImg = document.createElement('img')
-        nextImg.src = './images/icon/right-arrow.png'
+        nextImg.src = '../images/icon/right-arrow.png'
         nextImg.alt = 'Next'
         nextImg.className = 'arrow-button'
         nextButton.appendChild(nextImg)

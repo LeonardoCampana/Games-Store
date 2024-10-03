@@ -30,15 +30,15 @@
 
             <div class="gallery">
                 <div class="gallery-container">
-                    <img src="./images/hollow-knight.png" alt="" class="gallery-item gallery-item-1" data-index="1">
-                    <img src="./images/god of war.png" alt="" class="gallery-item gallery-item-2" data-index="2">
-                    <img src="./images/red dead redemption 2.png" alt="" class="gallery-item gallery-item-3" data-index="3">
-                    <img src="./images/cyberpunk 2077.png" alt="" class="gallery-item gallery-item-4" data-index="4">
-                    <img src="./images/the witcher 3.png" alt="" class="gallery-item gallery-item-5" data-index="5">
+                    <img src="~/images/hollow-knight.png" alt="" class="gallery-item gallery-item-1" data-index="1">
+                    <img src="~/images/god of war.png" alt="" class="gallery-item gallery-item-2" data-index="2">
+                    <img src="~/images/red dead redemption 2.png" alt="" class="gallery-item gallery-item-3" data-index="3">
+                    <img src="~/images/cyberpunk2077.png" alt="" class="gallery-item gallery-item-4" data-index="4">
+                    <img src="~/images/the witcher 3.png" alt="" class="gallery-item gallery-item-5" data-index="5">
                 </div>
 
                 <div class="gallery-controls">
-                </div>
+                </div>  
             </div>
 
         </section>
@@ -53,7 +53,7 @@
             @foreach (var produto in Model)
             {
                 <div class="product">
-                    <img src=".@produto.PathImage" alt="@produto.Name" class="img-game">
+                    <img src="~/.@produto.PathImage" alt="@produto.Name" class="img-game">
                     <p class="game-name">@produto.Name</p>
                     <div class="price">
                         <p class="discount">@produto.Discount %</p>
@@ -64,7 +64,7 @@
 
                         <p class="last-price">$@lastPrice.ToString("F2")</p>
                         <div class="shopcart">
-                            <img src="./images/icon/cart.svg" alt="cartSVG" />
+                            <img src="~/images/icon/cart.svg" alt="cartSVG" />
                         </div>
                     </div>
                 </div>
@@ -75,6 +75,6 @@
     </main>
 
     <!-- JavaScript -->
-    <script src="./js/carouselHome.js"></script>
+    <script src="~/js/carouselHome.js"></script>
 </body>
 </html>

@@ -19,14 +19,15 @@ namespace GamesStore.Controllers
             _context = context;
         }
 
-        public IActionResult Home()
+        public async Task<IActionResult> Home()
         {
-            return View("~/Views/Home/Index.cshtml");
+            var products = await _context.Product.ToListAsync();
+            return View("~/Views/Home/Index.cshtml", products);
         }
 
         public IActionResult Privacy()
         {
-            return View();
+            return View("~/Views/Home/Privacy.cshtml");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -35,10 +36,5 @@ namespace GamesStore.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public async Task<IActionResult> Index()
-        {
-            var products = await _context.Product.ToListAsync();
-            return View("Index", products);
-        }
     }
 }
